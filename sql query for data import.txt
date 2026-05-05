@@ -1,5 +1,5 @@
 
--- SQL Query to create and import data from csv files:
+-- SQL Query to create and import data from csv files for mysql
 
 -- 0. Create a database 
 CREATE DATABASE ccdb;
@@ -52,9 +52,10 @@ it for cc_add which is addtional data for credi_card.csv
 
 
 
---import data query for both credit_card.csv and cc_add.csv  just change the name of the file
+-- 3. import data query for both credit_card.csv and cc_add.csv  just change the name of the csv file
 
---also note the there is also query which set the date format according to sql
+-- also note the there is also query which set the date format according to sql
+
 LOAD DATA LOCAL INFILE 'C:/Users/ADMIN/Desktop/Power Bi/POWERBI PROJECT/cc_add.csv'
 INTO TABLE cc_detail
 FIELDS TERMINATED BY ','
@@ -84,7 +85,7 @@ IGNORE 1 ROWS
 SET Week_Start_Date = STR_TO_DATE(@Week_Start_Date, '%d-%m-%Y');
 
 
--- import data query for customer.csv and cust_add.csv
+-- 4. import data query for customer.csv and cust_add.csv
 
 LOAD DATA LOCAL INFILE 'C:/Users/ADMIN/Desktop/Power Bi/POWERBI PROJECT/customer.csv'
 INTO TABLE cust_detail
@@ -94,7 +95,7 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
 
---safer one if the column order is different
+-- safer one if the column order is different
 
 LOAD DATA LOCAL INFILE 'C:/Users/ADMIN/Desktop/Power Bi/POWERBI PROJECT/customer.csv'
 INTO TABLE cust_detail
