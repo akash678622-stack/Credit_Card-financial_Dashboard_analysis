@@ -67,3 +67,22 @@ This project showed my ability to work with complex data queries and share findi
 - **Power BI Visualizations**: Folder containing Power BI files with data visualizations.
 - **Pdfs**: Pdfs of both Customer & Transaction Report Dashboard
 - **Data**: All the data that are used to build the dashboard are provided in csv format
+
+## How to Use the Project
+1. **Download the Project Files**
+   - Clone or download this repository to your local system.
+2. **Open the Power BI Dashboard**
+   - Open the .pbix file using Power BI Desktop.
+   - The dashboard contains imported data, so it can be viewed directly without any SQL/MySQL setup.
+3. **Explore the Dashboard**
+   - Analyze interactive visualizations, KPIs, WoW trends, and YTD insights.
+   - Use filters and slicers to explore customer, transaction, and revenue performance.
+4. **Recreate or Refresh the Workflow (Optional)**
+   - If you want to recreate the complete workflow or refresh the dataset:
+   - Import the provided CSV datasets into MySQL
+   - Run the SQL scripts available in the SQL Queries folder
+   - Refresh the data connection in Power BI Desktop
+
+---
+
+This project highlights my skills in data analysis, SQL querying, data visualization, and presentation design in a business setting. It demonstrates my ability to extract and present actionable insights from data, supporting data-driven decision-making in a corporate environment.
