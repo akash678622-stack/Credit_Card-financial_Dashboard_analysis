@@ -5,13 +5,15 @@ This project is based on a fictional financial services company that provides cr
 
 ## Challenge
 
-The company faced difficulty in analyzing large volumes of credit card data, particularly in tracking weekly revenue trends and transaction patterns. They needed a solution to:
+The company faced challenges in analyzing large volumes of credit card transaction and customer data, especially in tracking weekly performance trends and identifying key business insights. They required an interactive dashboard solution to:
 
-* Monitor weekly revenue fluctuations and identify performance trends
-* Identify high-value customer segments driving revenue
-* Analyze spending behavior across different expenditure categories
-* Understand card usage patterns (Swipe, Chip, Online)
-* Track transaction volume across quarters to identify growth patterns
+* Monitor week-over-week (WoW) changes in revenue, transaction amount, and transaction count
+* Track customer growth and customer satisfaction trends through weekly ratings analysis
+* Analyze year-to-date (YTD) revenue, interest earnings, and overall transaction performance
+* Identify high-contributing customer segments based on gender, occupation, and card category
+* Understand regional contribution by analyzing revenue generated across different states
+* Monitor key business risk metrics such as activation rate and delinquency rate
+* Evaluate customer engagement and spending behavior to support data-driven business decisions
 
 ## My Task
 
@@ -32,10 +34,36 @@ As a data analyst, I was tasked with:
 3. **Dashboard Design**:
    - Created a clean and professional dashboard for better user experience.
 
+
 4. **Actionable Insights**:
    - Provided actionable insights and recommendations to assist the management team in making informed decisions.
+
+## WoW Report (Week 53 vs Week 52)
+* Revenue increased by 28.77%
+* Total transaction amount increased by 35.04%
+* Total transaction count increased by 3.39%
+* Customer satisfaction ratings (4 & 5) decreased by 13.08%
+* Client count increased by 12.80%
+
+## YTD Insights (Year To Date)
+* Overall revenue reached 57M
+* Total interest earned was 8M
+* Total transaction amount reached 46M
+* Male customers contributed higher revenue (31M) compared to female customers (26M)
+* Blue & Silver credit cards contributed to 93% of overall transactions
+* TX, NY, and CA contributed to 69% of total revenue
+* Overall card activation rate stood at 57.5%
+* Overall delinquent rate was 6.06%
+* Self-employed and businessman customers contributed 45.8% of total 4 & 5 customer ratings
   
 
 ## Outcome
 
 This project showed my ability to work with complex data queries and share findings in a clear and engaging way. It helped me improve both my technical skills and my ability to explain insights effectively.
+
+## Files in this Repository
+
+- **SQL Queries**: Folder containing SQL scripts used to extract data.
+- **Power BI Visualizations**: Folder containing Power BI files with data visualizations.
+- **Pdfs**: Pdfs of both Customer & Transaction Report Dashboard
+- **Data**: All the data that are used to build the dashboard are provided in csv format
